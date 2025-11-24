@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloud-based-hw1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloud-based-hw1
+  template:
+    metadata:
+      labels:
+        app: cloud-based-hw1
+    spec:
+      containers:
+      - name: cloud-based-hw1
+        image: andrem3007/cloud-based-applications-hw1:latest
+        ports:
+        - containerPort: 8080
