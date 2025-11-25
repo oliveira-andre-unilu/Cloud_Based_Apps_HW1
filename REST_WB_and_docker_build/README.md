@@ -20,4 +20,4 @@ This command will build the application from scratch using the multi-stage Docke
 
 **Testing the application:**
 
-YOu will then be able to access the web-service via the port `8080`, here is an example of an url that could be used to get some information from the web-service: `http://localhost:8080/api/getPopulation?year=1995`
+You will then be able to access the web-service via the port `8080`, here is an example of an url that could be used to get some information from the web-service: `http://localhost:8080/api/getPopulation?year=1995`
